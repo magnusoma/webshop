@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Administator</title>
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>Add new product</h1>
+
+        <form onsubmit="RegisterNewProduct()">
+            <p>Product name:</p><input name="name"/>
+            <p>Price:</p><input name="price"/>
+            <p>Image:</p><div><input type="file" name="image"></div>
+            <input type="submit" value="Submit"/>
+        </form>
+
+        <h1>Eksisting products</h1>
+        <div id="productContainer" onload="RenderProductlist()"></div>
+        <script src="../script/admin.js"></script>
+    </body>
+</html>

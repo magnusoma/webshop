@@ -1,0 +1,13 @@
+img{
+	height: 150px;
+}
+
+#cart{
+	background-color: blue;
+	width: 70px;
+	cursor: pointer;
+}
+
+div > h4{
+	cursor: pointer;
+}
